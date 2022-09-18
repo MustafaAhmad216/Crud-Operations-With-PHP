@@ -1,0 +1,88 @@
+/*FONTS:
+  font-family: 'Merriweather', serif;
+  font-family: 'Montez', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Bilbo', cursive; 
+  font-family: 'Sacramento', cursive;*/
+/*COLORS:
+   #E8F6EF, #E99497, #FFD8CC, #DBE6FD, #F5E8C7, #F4DFD0, #F1ECC3, #FFBBCC, #261C2C ,#373A40, #082032,*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+  } 
+
+
+.pDiv{
+width: 50;
+padding: 20px 20px 20px 40px;
+background-color: #DBE6FD;
+align-items: center;
+display:block;
+justify-content: center;
+}
+.TDiv{
+  width: 50;
+  background-color: #DBE6FD;
+  padding: 20px 20px 20px 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  }
+  
+.p1{
+
+    width: 90%;
+    padding: 18px 0;
+    color: #a1aaa8;
+    padding-left: 20px;
+    text-align: left;
+    margin: 15px 23px 15px 23px;
+    border-radius: 8px;
+    font-weight: bold;
+    background: #eeeeee;
+    position: relative;
+    overflow: hidden;
+}
+
+.p2{
+margin: 40px 23px 10px 20px;
+color: #c6d0ce;
+}
+
+.input1{
+  width: 220px;
+  border-radius: 15px;
+  margin: 5px 0px 0px 15px;
+  padding: 10px 5px 5px 10px;
+
+}
+.input2{
+  width: 220px;
+  border-radius: 15px;
+  margin: 5px 2px 0px 0px;
+  padding: 10px 5px 5px 10px;
+
+}
+.span{
+  color: #eef0ef;
+
+}
+
+button{
+  width: 150px;
+  padding: 8px 0;
+  text-align: center;
+  margin: 20px 0px 8px 8px;
+  border-radius: 7px;
+  font-weight: bold;
+  border: 3px;
+  background: #1cb1b1;
+  cursor: pointer;
+  color: white;
+  text-decoration-color: black;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}

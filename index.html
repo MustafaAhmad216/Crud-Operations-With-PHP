@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS lecture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="pDiv">
+        
+        <form action="" method="post" enctype= "multipart/form-data">      
+            <h3>Sign-Up</h3> <br>
+            <hr> <br>
+            <label>First Name</label> &emsp;
+            <input type="text" name="firstName" required> <br><br>
+
+            <label>Last Name</label> &emsp;
+            <input type="text" name="lastName" required> <br><br>
+
+            <label>Address</label> &emsp;&emsp;
+            <textarea name="address">Enter your address</textarea> <br><br>
+
+            <label for="cou">Country</label> &emsp;&emsp;
+            <select id="cou" name="country" required>
+                <option value="">Select Country:</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Aruba">Aruba</option>
+                <option value="Australia">Australia</option>
+                <option value="Austria">Austria</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Bahamas">Bahamas</option>
+                <option value="Bahrain">Bahrain</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Barbados">Barbados</option>
+                <option value="Belarus">Belarus</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Belize">Belize</option>
+                <option value="Benin">Benin</option>
+                <option value="Bermuda">Bermuda</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                <option value="Botswana">Botswana</option>
+                <option value="Bouvet Island">Bouvet Island</option>
+                <option value="Brazil">Brazil</option>
+                <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                <option value="Brunei Darussalam">Brunei Darussalam</option>
+                <option value="Bulgaria">Bulgaria</option>
+                <option value="Burkina Faso">Burkina Faso</option>
+                <option value="Burundi">Burundi</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Cameroon">Cameroon</option>
+                <option value="Canada">Canada</option>
+                <option value="Cape Verde">Cape Verde</option>
+                <option value="Cayman Islands">Cayman Islands</option>
+                <option value="Central African Republic">Central African Republic</option>
+                <option value="Chad">Chad</option>
+                <option value="Chile">Chile</option>
+                <option value="China">China</option>
+                <option value="Christmas Island">Christmas Island</option>
+                <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Comoros">Comoros</option>
+                <option value="Congo">Congo</option>
+                <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
+                <option value="Cook Islands">Cook Islands</option>
+                <option value="Costa Rica">Costa Rica</option>
+                <option value="Cote D'ivoire">Cote D'ivoire</option>
+                <option value="Croatia">Croatia</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Cyprus">Cyprus</option>
+                <option value="Czech Republic">Czech Republic</option>
+                <option value="Denmark">Denmark</option>
+                <option value="Djibouti">Djibouti</option>
+                <option value="Dominica">Dominica</option>
+                <option value="Dominican Republic">Dominican Republic</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Egypt">Egypt</option>
+                <option value="El Salvador">El Salvador</option>
+                <option value="Equatorial Guinea">Equatorial Guinea</option>
+                <option value="Eritrea">Eritrea</option>
+            </select><br><br>
+
+            <label for="gender"><b>Gender</b></label>&emsp;&emsp;&ensp;
+
+                
+            <input type="radio" name="gender" value="male"> Male &emsp;
+            <input type="radio" name="gender" value="Female"> Female <br> <br>
+
+
+            <label><b>Skills</b></label> &emsp;&emsp;&emsp;
+            <input name="Skill" type="checkbox" value="php">
+            <label name="Skill" for="php"> PHP</label>&ensp;&emsp;
+            <input name="Skill" type="checkbox" value="JS2E">
+            <label name="Skill" for=" basketball"> JS2E </label><br>
+            &emsp;&emsp;&emsp;&ensp;&emsp;&ensp;&ensp;
+            <input name="Skill" type="checkbox" value="MySql">
+            <label name="Skill" for=" games"> MySql</label> &ensp;
+            <input name="Skill" type="checkbox" value="PostgreeSql">
+            <label name="Skill" for=" reading"> PostgreeSql</label>  <br><br> <hr> <br>
+
+
+
+            <label>UserName</label> &emsp;&ensp;
+            <input name="UserName" type="text" required> <br><br>
+
+            <label>Password</label> &emsp;&ensp;&ensp;
+            <input type="password" id="psw" name="PassWord" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required > <br><br>
+
+            <label>Department</label> &emsp;
+            <input name="Department" type="text" placeholder="OpenSource"> <br><br>
+
+            <br><hr><br>
+            <button formaction="done.php" type="submit" name="submit" value="submit">submit</button> &emsp;&ensp;&emsp;&ensp;
+            <button type="reset"">Reset</button>
+
+
+        </form>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
